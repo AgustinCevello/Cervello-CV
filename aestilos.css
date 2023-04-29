@@ -27,6 +27,11 @@ ul.margintop {
     border-radius: 20px;
     text-decoration: none;
     padding: 5px;
+}     
+
+.clase1:hover {
+  background-color: black;
+  color: rgb(238, 124, 238, 0.7);
 }
 
 
