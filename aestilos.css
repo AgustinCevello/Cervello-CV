@@ -7,11 +7,12 @@ ul.margintop {
     display: flex;
     justify-content: center;
     list-style: none;
-  }
+}
 
  body {
    background-image: url(imagenes/fondo.png);
    background-size: cover;
+   height: 100vh;
 }
 
 .clase1{
@@ -163,14 +164,12 @@ footer {
 @media (max-width: 768px) {
   footer {
     height: auto;
-    flex-direction: column;
     text-align: center;
   }
   .lefted-text {
     margin-bottom: 10px;
   }
 }
-
 
 .lefted-text{
   margin-left: 30px;
@@ -184,7 +183,12 @@ footer {
   font-size: 30px;
   font-weight: bold;
 }
-  
-  
-  
-  
+
+.cajapie{
+  display: flex;
+}
+
+.redesfooter{
+  display: flex;
+  justify-content: space-around;
+}
